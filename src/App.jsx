@@ -1,9 +1,9 @@
 import React, { Suspense, lazy } from "react";
 import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import Footer from "./Components/Footer"; 
 import "./App.css";
 
-const Hero = lazy(() => import("./components/Hero"));
+const Hero = lazy(() => import(".Components/Hero"));
 const About = lazy(() => import("./Components/About"));
 const Skills = lazy(() => import("./Components/Skills"));
 const Projects = lazy(() => import("./Components/Projects"));
